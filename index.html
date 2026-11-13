@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Stackly Boutique | Fashion & Clothing</title>
+<meta name="description" content="Stackly Boutique: layered looks, new arrivals and best sellers in women's and men's fashion.">
+<link rel="icon" type="image/webp" href="assets/images/favicon.webp" sizes="64x64">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="preloader"><span class="cur t"></span><span class="cur b"></span><div class="pl"><div class="ring"><img src="assets/images/logo.webp" alt="Stackly"><i></i></div><h2 class="plt">Boutique</h2><p class="plw">Packing <span id="plw">Dresses</span></p><div class="pbar"><i id="pbar"></i></div><div class="pnum"><b id="pnum">0</b>%</div></div></div>
+
+<div class="topbar"><div class="track"><span>Free shipping over $150</span><span>Use STACK10 for 10% off</span><span>Easy 30-day returns</span><span>New drop every Friday</span><span>Free shipping over $150</span><span>Use STACK10 for 10% off</span><span>Easy 30-day returns</span><span>New drop every Friday</span></div></div>
+
+<header id="header">
+  <a href="#home" class="logo"><img src="assets/images/logo.webp" alt="Stackly Boutique"></a>
+  <nav id="nav" aria-label="Main">
+    <a href="#categories">Categories</a><a href="#new">New</a><a href="#trending">Trending</a><a href="#best">Best sellers</a><a href="#offers">Offers</a><a href="#shop">Shop all</a><a href="#reviews">Reviews</a>
+  </nav>
+  <div class="icons">
+    <button class="ibtn" id="searchBtn" aria-label="Search">⌕</button>
+    <button class="ibtn" data-open="wish" aria-label="Wishlist">♡<b id="wishCount">0</b></button>
+    <button class="ibtn" data-open="cart" aria-label="Cart"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg><b id="cartCount">0</b></button>
+    <button class="ibtn burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="hero-copy">
+    <p class="pill" data-ta="pop">Autumn–Winter 2026 collection</p>
+    <h1 data-ta="rise">Layer up. Stand out. Stack your style.</h1>
+    <p class="typed" data-aos="fade-up" data-aos-delay="900">Now trending: <span id="typed"></span></p>
+    <p class="lead" data-ta="blur">Tailored dresses, easy shirts, statement shoes and bags, picked for people who build outfits one good piece at a time.</p>
+    <div class="cta" data-aos="fade-up" data-aos-delay="550"><a href="#shop" class="btn">Shop the collection</a><a href="#offers" class="btn ghost">See offers</a></div>
+    <ul class="stats" data-aos="fade-up" data-aos-delay="700"><li><b data-count="48">0</b>k+ happy customers</li><li><b data-count="320">0</b> new styles a season</li><li><b data-count="4.9">0</b>/5 average rating</li></ul>
+  </div>
+  <div class="hero-art">
+    <img class="h1" src="assets/images/photo-1490481651871-ab68de25d43d.webp" alt="Model wearing the new season edit" data-aos="zoom-in">
+    <img class="h2" src="assets/images/photo-1483985988355-763728e1935b.webp" alt="Shoppers browsing" data-aos="fade-left" data-aos-delay="300">
+    <div class="float f1" data-aos="fade-up" data-aos-delay="600">★ 4.9 <small>Loved by stylists</small></div>
+    <div class="float f2" data-aos="fade-up" data-aos-delay="800">Free returns<small>within 30 days</small></div>
+  </div>
+</section>
+
+<section class="trust">
+  <div data-aos="fade-up"><b>🚚</b><h4>Free delivery</h4><p>On orders above $150</p></div>
+  <div data-aos="fade-up" data-aos-delay="100"><b>↺</b><h4>30-day returns</h4><p>No questions asked</p></div>
+  <div data-aos="fade-up" data-aos-delay="200"><b>✓</b><h4>Secure checkout</h4><p>Your details stay private</p></div>
+  <div data-aos="fade-up" data-aos-delay="300"><b>✦</b><h4>Stylist support</h4><p>Chat for outfit help</p></div>
+</section>
+
+<section class="sec" id="categories">
+  <div class="head"><h2 data-ta="pop">Shop by category</h2><p data-aos="fade-up">Start with the piece you need most. Each category opens the full range below.</p></div>
+  <div class="cats">
+    <a class="cat" data-cat="womens-dresses" data-aos="fade-up"><img src="assets/images/photo-1496747611176-843222e1e57c.webp" alt="Dresses"><div><h3>Dresses</h3><p>Day-to-dinner silhouettes</p></div></a>
+    <a class="cat" data-cat="mens-shirts" data-aos="fade-up" data-aos-delay="100"><img src="assets/images/photo-1523381210434-271e8be1f52b.webp" alt="Men's shirts"><div><h3>Men's shirts</h3><p>Crisp, soft, easy to layer</p></div></a>
+    <a class="cat" data-cat="womens-shoes" data-aos="fade-up" data-aos-delay="200"><img src="assets/images/photo-1543163521-1bf539c55dd2.webp" alt="Shoes"><div><h3>Shoes</h3><p>Heels, flats and statement pairs</p></div></a>
+    <a class="cat" data-cat="womens-bags" data-aos="fade-up" data-aos-delay="300"><img src="assets/images/photo-1548036328-c9fa89d128fa.webp" alt="Bags"><div><h3>Bags</h3><p>Totes and clutches that carry it all</p></div></a>
+    <a class="cat" data-cat="tops" data-aos="fade-up" data-aos-delay="400"><img src="assets/images/photo-1558769132-cb1aea458c5e.webp" alt="Tops"><div><h3>Tops</h3><p>The base of every stack</p></div></a>
+    <a class="cat" data-cat="sunglasses" data-aos="fade-up" data-aos-delay="500"><img src="assets/images/photo-1511499767150-a48a237f0083.webp" alt="Sunglasses"><div><h3>Sunglasses</h3><p>Finish the look</p></div></a>
+  </div>
+</section>
+
+<section class="sec alt" id="new">
+  <div class="head"><h2 data-ta="blur">New arrivals</h2><p data-aos="fade-up">Fresh from this week's drop. Limited runs, so the best sizes go first.</p></div>
+  <div class="grid" id="newGrid"></div>
+</section>
+
+<section class="sec" id="trending">
+  <div class="head"><h2 data-ta="clip">Trending right now</h2><p data-aos="fade-up">What our community is saving, sharing and wearing this week.</p></div>
+  <div class="grid" id="trendGrid"></div>
+</section>
+
+<section class="sec banner">
+  <div class="lookbook" data-aos="fade-right"><img src="assets/images/photo-1529139574466-a303027c1d8b.webp" alt="Lookbook"></div>
+  <div class="story" data-aos="fade-left"><h2>The three-layer rule</h2><p>A base you love, a layer with texture, and one piece that surprises. Our stylists build every collection around this idea, so anything you add to your cart already works with what you own.</p><ul><li>Base: soft tops and tailored shirts</li><li>Layer: jackets, knits and structured bags</li><li>Surprise: shoes, shades and jewellery</li></ul><a href="#shop" class="btn">Build your stack</a></div>
+</section>
+
+<section class="sec alt" id="best">
+  <div class="head"><h2 data-ta="shimmer">Best sellers</h2><p data-aos="fade-up">The highest-rated pieces in the boutique, chosen by thousands of real orders.</p></div>
+  <div class="grid" id="bestGrid"></div>
+</section>
+
+<section class="sec" id="offers">
+  <div class="head"><h2 data-ta="flip">Special offers</h2><p data-aos="fade-up">Tap a code to copy it, then apply it in your cart.</p>
+    <div class="timer" data-aos="zoom-in">Ends in <span id="cd">--</span></div></div>
+  <div class="offers">
+    <div class="offer" data-code="FASHION20" style="--bg:url(assets/images/photo-1445205170230-053b83016050.webp)" data-aos="flip-left"><h3>20% off</h3><p>Spend $100 or more across the boutique.</p><span class="code">FASHION20</span></div>
+    <div class="offer" data-code="WELCOME15" style="--bg:url(assets/images/photo-1441986300917-64674bd600d8.webp)" data-aos="flip-left" data-aos-delay="150"><h3>15% welcome gift</h3><p>First order? Take 15% off everything.</p><span class="code">WELCOME15</span></div>
+    <div class="offer" data-code="FREESHIP" style="--bg:url(assets/images/photo-1469334031218-e382a71b716b.webp)" data-aos="flip-left" data-aos-delay="300"><h3>Free shipping</h3><p>Delivered to your door at no extra cost.</p><span class="code">FREESHIP</span></div>
+    <div class="offer" data-code="STACK10" style="--bg:url(assets/images/photo-1512436991641-6745cdb1723f.webp)" data-aos="flip-left" data-aos-delay="450"><h3>10% off, always</h3><p>Our everyday thank-you for stacking up.</p><span class="code">STACK10</span></div>
+  </div>
+</section>
+
+<section class="sec alt" id="shop">
+  <div class="head"><h2 data-ta="wave">Shop all styles</h2><p data-aos="fade-up">Search by name, filter by category and sort by price or rating.</p></div>
+  <div class="tools" data-aos="fade-up">
+    <input id="q" type="search" placeholder="Search dresses, shirts, bags…" aria-label="Search products">
+    <select id="cat" aria-label="Category"><option value="">All categories</option></select>
+    <select id="sort" aria-label="Sort"><option value="">Featured</option><option value="pa">Price: low to high</option><option value="pd">Price: high to low</option><option value="rd">Rating: high to low</option><option value="ra">Rating: low to high</option></select>
+  </div>
+  <p id="count" class="count"></p>
+  <div class="grid" id="shopGrid"></div>
+  <div class="more"><button class="btn" id="more" hidden>Load more</button></div>
+</section>
+
+<section class="sec" id="reviews">
+  <div class="head"><h2 data-ta="type">Words from our stack</h2><p data-aos="fade-up">Real reviews from customers who shop, return and come back.</p></div>
+  <div class="tests">
+    <figure data-aos="fade-up"><div class="rate">★★★★★</div><blockquote>The dress fit perfectly out of the box and the fabric feels far more expensive than the price. I've already ordered a second colour.</blockquote><figcaption><img src="assets/images/photo-1494790108377-be9c29b29330.webp" alt="Priya"><div><b>Priya S.</b><small>Bengaluru · bought 4 times</small></div></figcaption></figure>
+    <figure data-aos="fade-up" data-aos-delay="150"><div class="rate">★★★★★</div><blockquote>Delivery took two days and the shirts are cut exactly as shown. Sizing advice from the support chat saved me a return.</blockquote><figcaption><img src="assets/images/photo-1507003211169-0a1dd7228f2d.webp" alt="Arjun"><div><b>Arjun M.</b><small>Mumbai · bought 2 times</small></div></figcaption></figure>
+    <figure data-aos="fade-up" data-aos-delay="300"><div class="rate">★★★★☆</div><blockquote>Love the three-layer idea. I rebuilt my work wardrobe with six pieces and get compliments every week. Packaging was lovely too.</blockquote><figcaption><img src="assets/images/photo-1534528741775-53994a69daeb.webp" alt="Meera"><div><b>Meera K.</b><small>Chennai · bought 6 times</small></div></figcaption></figure>
+  </div>
+</section>
+
+<section class="news" id="newsletter">
+  <div data-aos="zoom-in"><h2 data-ta="wave">Join the stack</h2><p>Get first access to drops, styling notes and a 10% welcome code. One email a week, unsubscribe any time.</p>
+  <form id="nlForm" novalidate><input type="email" id="nlEmail" placeholder="you@example.com" aria-label="Email address" required><button class="btn">Subscribe</button></form><p id="nlMsg" class="msg" role="status"></p></div>
+</section>
+</main>
+
+<footer>
+  <svg class="wave" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true"><path d="M0 40C240 90 480 0 720 40S1200 80 1440 30V80H0Z"/></svg>
+  <div class="glow g1"></div><div class="glow g2"></div>
+  <div class="fmarq" aria-hidden="true"><div class="track"><span>Stack your style ✦</span><span>New drop every Friday ✦</span><span>Free shipping over $150 ✦</span><span>Stack your style ✦</span><span>New drop every Friday ✦</span><span>Free shipping over $150 ✦</span></div></div>
+  <div class="fgrid">
+    <div class="fbrand" data-aos="fade-up"><img src="assets/images/logo.webp" alt="Stackly" class="flogo"><p>Fashion built in layers. Designed to mix, match and last beyond one season.</p>
+      <div class="soc"><a href="404.html" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor"/></svg></a><a href="404.html" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8z"/></svg></a><a href="404.html" aria-label="X"><svg viewBox="0 0 24 24"><path d="M4 4l16 16M20 4L4 20"/></svg></a><a href="404.html" aria-label="YouTube"><svg viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9l5 3-5 3z" fill="currentColor"/></svg></a><a href="404.html" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v6M8 7.5v.01M12 16v-6M12 12.5c0-1.5 1-2.5 2.5-2.5S17 11 17 12.5V16"/></svg></a></div></div>
+    <div data-aos="fade-up" data-aos-delay="100"><h4>Shop</h4><a href="#new">New arrivals</a><a href="#trending">Trending</a><a href="#best">Best sellers</a><a href="#offers">Offers</a></div>
+    <div data-aos="fade-up" data-aos-delay="200"><h4>Help</h4><a href="#">Shipping</a><a href="#">Returns</a><a href="#">Size guide</a><a href="mailto:hello@stackly.example">Contact us</a></div>
+    <div data-aos="fade-up" data-aos-delay="300"><h4>Visit us</h4><p>12 Residency Road<br>Bengaluru, Karnataka<br>Open daily, 10am to 9pm</p><a href="mailto:hello@stackly.example" class="mail">hello@stackly.example</a></div>
+  </div>
+  <div class="fbig" data-ta="wave" aria-hidden="true">STACKLY</div>
+  <div class="fbot"><p>© 2026 Stackly Boutique. Product data from DummyJSON.</p><nav class="legal" aria-label="Legal"><a href="404.html">Privacy Policy</a><a href="404.html">Terms &amp; Conditions</a></nav><div class="pay"><span>VISA</span><span>MASTERCARD</span><span>UPI</span><span>COD</span></div><button id="toTop" aria-label="Back to top"><span>↑</span> Back to top</button></div>
+</footer>
+
+<div class="overlay" id="overlay"></div>
+<aside id="drawer" aria-label="Cart and wishlist"><div class="dhead"><div class="tabs"><button data-tab="cart">Cart</button><button data-tab="wish">Wishlist</button></div><button class="x" data-close>×</button></div><div id="dbody"></div><div id="dfoot"></div></aside>
+<div class="modal" id="modal" role="dialog" aria-modal="true"><div class="mbox"><button class="x" data-close>×</button><div id="mbody"></div></div></div>
+<div id="toast" role="status"></div>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script src="js/api.js"></script><script src="js/store.js"></script><script src="js/app.js"></script>
+</body>
+</html>
